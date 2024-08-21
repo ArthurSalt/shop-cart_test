@@ -1,0 +1,23 @@
+.item {
+   &_size_row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .size {
+         margin: 5px;
+         padding: 2px 7px;
+
+         background-color: rgb(197, 197, 197);
+         cursor: pointer;
+
+         &:hover {
+            background-color: rgba(111, 111, 111, 0.487);
+         }
+      }
+
+      .active {
+         background-color: #97fd37;
+      }
+   }
+}

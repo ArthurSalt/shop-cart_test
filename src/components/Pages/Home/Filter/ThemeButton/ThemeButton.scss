@@ -1,0 +1,35 @@
+.theme_wrapper {
+   display: flex;
+   justify-content: flex-end;
+   width: 150px;
+}
+
+.theme {
+   display: flex;
+   position: relative;
+   padding: 0 5px;
+
+   &_type {
+      padding: 0 5px;
+      color: orangered;
+      text-decoration: underline;
+      cursor: pointer;
+   }
+   
+   &_popup {
+      width: 80px;
+      position: absolute;
+      left: 120px;
+      bottom: 0px;
+      border-radius: 5px;
+      line-height: 25px;
+      text-align: center;
+   
+      background-color: rgb(195, 195, 255);
+      cursor: pointer;
+
+      & li:hover {
+         background-color: rgb(255, 190, 190);
+      }
+   }
+}

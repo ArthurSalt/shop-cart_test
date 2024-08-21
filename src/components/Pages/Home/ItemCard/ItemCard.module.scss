@@ -1,0 +1,91 @@
+.item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   margin: 5px;
+   padding: 10px;
+   max-height: 365px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgb(176, 176, 255);
+
+   &_img {
+      width: 200px;
+      height: 200px;
+      border-radius: 5px;
+      // box-shadow: 2px 2px 5px grey;
+
+      &:hover {
+         scale: 1.03;
+         // box-shadow: 1px 1px 2px grey;
+      }
+   }
+
+   &_title {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28px;
+   }
+
+   &_rating {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgb(255, 183, 0);
+   }
+
+   &_controls {
+      width: 170px;
+      background-color: rgba(197, 197, 197, 0.487);
+      border-radius: 5px;
+   }
+
+   &_size_row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .size {
+         margin: 5px;
+         padding: 2px 7px;
+
+         background-color: rgb(197, 197, 197);
+         cursor: pointer;
+
+         &:hover {
+            background-color: rgba(111, 111, 111, 0.487);
+         }
+      }
+
+      .active {
+         background-color: #97fd37;
+      }
+   }
+
+   &_buyMenu {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &_price {
+      font-size: 18px;
+      font-weight: 500;
+   }
+
+   &_addButton {
+      border: 1px solid red;
+      border-radius: 10px;
+      color: red;
+
+      cursor: pointer;
+   }
+
+   &_added {
+      border: 1px solid #1abf18;
+      border-radius: 10px;
+      color: #1abf18;
+
+      cursor: pointer;
+   }
+}

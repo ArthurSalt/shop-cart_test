@@ -1,0 +1,59 @@
+.product {
+   &_card {
+      display: flex;
+      justify-content: left;
+      padding: 20px 0;
+
+      @media(max-width: 480px) {
+         display: block;
+      }
+   }
+
+   &_img {
+      width: 200px;
+      height: 200px;
+
+      @media(max-width: 480px) {
+         width: auto;
+      }
+   }
+
+   &_info {
+      width: 350px;;
+      padding: 10px 20px;
+
+      p {
+         padding: 5px 0;
+      }
+
+      @media(max-width: 480px) {
+         width: auto;
+      }
+   }
+
+   &_name {
+      font-size: 24px;
+      font-weight: 600;
+   }
+
+   &_rating {
+      font-size: 18px;
+      font-weight: 600;
+      color: rgb(255, 183, 0);
+   }
+
+   &_desc {
+      text-align: justify;
+      padding: 10px;
+   }
+
+   &_price {
+      font-size: 24px;
+      font-weight: 600;
+   }
+
+   &_buy {
+      display: flex;
+      justify-content: space-between;
+   }
+}
