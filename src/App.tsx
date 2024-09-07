@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './components/Pages/Home/Home';
 import Header from './components/Header/Header';
-import Users from './components/Users';
 
 import './reset.css';
 import './App.scss';
@@ -16,12 +15,12 @@ function App() {
 
   return (
     <div className="wrapper">
+      
       <main className="container">
         <div className="content">
           <Header />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/users' element={<Users />} />
             <Route path='/cart' element={<Suspense fallback={<div>Loading...</div>}> <Cart /> </Suspense>} />
             <Route path='/:id' element={<Suspense fallback={<div>Loading...</div>}> <ProductCard /> </Suspense>} />
           </Routes>
