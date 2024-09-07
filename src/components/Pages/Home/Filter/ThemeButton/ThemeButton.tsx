@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 
 import './ThemeButton.scss';
 
@@ -11,16 +11,16 @@ const ThemeButton: React.FC = () => {
     useEffect(() => {
         document.body.addEventListener('click', handleOnClick)
         return () => {
-           document.body.removeEventListener('click', handleOnClick)
+            document.body.removeEventListener('click', handleOnClick)
         }
-     }, []);
+    }, []);
 
-     const handleOnClick = (e: Event):void => {
+    const handleOnClick = (e: Event): void => {
         const target = e.target as HTMLElement;
         if (!target.className.includes('theme')) {
             setModal(false)
         }
-     }
+    }
 
 
     const onSelectedTheme = (el: string) => {
@@ -37,19 +37,19 @@ const ThemeButton: React.FC = () => {
     useEffect(() => setBodyAttr(activeTheme), [])
 
     return (
-    <div className="theme_wrapper">
-        <div className="theme">
-            <p>Theme: <span onClick={() => setModal(true)} className='theme_type'>{activeTheme}</span></p>
+        <div className="theme_wrapper">
+            <div className="theme">
+                <p>Theme: <span onClick={() => setModal(prev => !prev)} className='theme_type'>{activeTheme}</span></p>
 
-            {modal && (
-                <ul className="theme_popup">
-                    {themesList.map(el => (
-                        <li key={el} onClick={() => onSelectedTheme(el)}>{el}</li>
-                    ))}
-                </ul>
-            )}
+                {modal && (
+                    <ul className="theme_popup">
+                        {themesList.map(el => (
+                            <li key={el} onClick={() => onSelectedTheme(el)}>{el}</li>
+                        ))}
+                    </ul>
+                )}
+            </div>
         </div>
-    </div>
     )
 };
 

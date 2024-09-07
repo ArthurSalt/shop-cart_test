@@ -7,10 +7,6 @@
     top: 30vh;
     left: 0vw;
   }
-
-  // @media(max-width: 370px) {
-  //   display: none;
-  // }
 }
 
 .category {
@@ -20,6 +16,8 @@
   white-space: nowrap;
   background-color: var(--category-color);
   border-radius: 20px;
+  z-index: 4;
+
   cursor: pointer;
 
   &:hover {
@@ -31,3 +29,4 @@
     margin: 10px 5px;
   }
 }
+

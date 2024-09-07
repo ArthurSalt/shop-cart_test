@@ -1,12 +1,13 @@
 .theme_wrapper {
+   position: relative;
    display: flex;
-   justify-content: flex-end;
+   justify-content: center;
+   font-size: 14px;
    width: 150px;
 }
 
 .theme {
    display: flex;
-   position: relative;
    padding: 0 5px;
 
    &_type {
@@ -19,8 +20,8 @@
    &_popup {
       width: 80px;
       position: absolute;
-      left: 120px;
-      bottom: 0px;
+      left: 60px;
+      bottom: 20px;
       border-radius: 5px;
       line-height: 25px;
       text-align: center;

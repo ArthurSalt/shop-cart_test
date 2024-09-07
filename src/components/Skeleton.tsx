@@ -6,7 +6,7 @@ const Skeleton: React.FC = (props) => (
     <ContentLoader
       speed={2}
       width={220}
-      height={420}
+      height={380}
       viewBox="0 0 220 420"
       backgroundColor="#c7c7c7"
       foregroundColor="#858585"

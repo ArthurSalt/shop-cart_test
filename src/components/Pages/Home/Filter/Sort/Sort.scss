@@ -1,9 +1,9 @@
 .sort_wrapper {
    display: flex;
-   width: auto;
-
-   @media(max-width: 670px) {
-      margin-top: 20px;
+   white-space: nowrap;
+   
+   @media(max-width: 370px) {
+      display: none;
    }
 }
 
@@ -27,6 +27,7 @@
       border-radius: 5px;
       line-height: 25px;
       text-align: center;
+      z-index: 5;
    
       background-color: rgb(195, 195, 255);
       cursor: pointer;

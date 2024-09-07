@@ -45,6 +45,7 @@ export const Cart: React.FC = () => {
             {items.length
                ? items.map(item => <CartItem key={item.id + item.size} {...item} />)
                : <p className='cart_empty'>Your cart is empty. Please add items to proceed</p>}
+               <hr />
          </ul>
          <div className="cart_info">
             <p>Items in cart: {itemsCount}</p>

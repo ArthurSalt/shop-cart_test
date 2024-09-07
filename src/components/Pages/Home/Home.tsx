@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../../utils/hooks';
@@ -9,6 +10,7 @@ import { selectFilter, setFilters } from '../../../redux/slices/filterSlice';
 import { Category, Sort, ItemCard, Pagination, Skeleton } from '../../index';
 import qs from 'query-string';
 import ThemeButton from './Filter/ThemeButton/ThemeButton';
+import BurgerMenu from './Filter/BurgerMenu/BurgerMenu';
 
 const Home: React.FC = () => {
    const dispatch = useAppDispatch();
@@ -84,8 +86,9 @@ const Home: React.FC = () => {
          <section className='items'>
             <h1 className='items_list_name'>All T-Shirts</h1>
             <div className="items_list">
+               <BurgerMenu />
                {isLoading
-                  ? [...new Array(5)].map((_, idx) => <Skeleton key={idx} />)
+                  ? [...new Array(itemsPerPage)].map((_, idx) => <Skeleton key={idx} />)
                   : currentItems.map(obj => <ItemCard key={obj.id} {...obj} />)}
             </div>
          </section>
