@@ -1,7 +1,7 @@
 {
   "name": "all_tshirts",
   "version": "0.1.0",
-  "homepage": "https://arthursalt.github.io/T-shirts",
+  "homepage": "https://arthursalt.github.io/shop-cart_test",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
