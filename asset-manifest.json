@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/T-shirts/static/css/main.28f4189d.css",
-    "main.js": "/T-shirts/static/js/main.c4224adb.js",
-    "Cart.css": "/T-shirts/static/css/Cart.e31f721c.chunk.css",
-    "Cart.js": "/T-shirts/static/js/Cart.2492980b.chunk.js",
-    "ProductCard.css": "/T-shirts/static/css/ProductCard.e4b7d6cb.chunk.css",
-    "ProductCard.js": "/T-shirts/static/js/ProductCard.bc1856e0.chunk.js",
-    "static/media/t_shirt_logo.png": "/T-shirts/static/media/t_shirt_logo.51f8a7e0867960053e88.png",
-    "static/media/cart_icon.png": "/T-shirts/static/media/cart_icon.4e8729b09a2c5a571f46.png",
-    "index.html": "/T-shirts/index.html",
-    "main.28f4189d.css.map": "/T-shirts/static/css/main.28f4189d.css.map",
-    "main.c4224adb.js.map": "/T-shirts/static/js/main.c4224adb.js.map",
-    "Cart.e31f721c.chunk.css.map": "/T-shirts/static/css/Cart.e31f721c.chunk.css.map",
-    "Cart.2492980b.chunk.js.map": "/T-shirts/static/js/Cart.2492980b.chunk.js.map",
-    "ProductCard.e4b7d6cb.chunk.css.map": "/T-shirts/static/css/ProductCard.e4b7d6cb.chunk.css.map",
-    "ProductCard.bc1856e0.chunk.js.map": "/T-shirts/static/js/ProductCard.bc1856e0.chunk.js.map"
+    "main.css": "/shop-cart_test/static/css/main.28f4189d.css",
+    "main.js": "/shop-cart_test/static/js/main.45223af1.js",
+    "Cart.css": "/shop-cart_test/static/css/Cart.e31f721c.chunk.css",
+    "Cart.js": "/shop-cart_test/static/js/Cart.2492980b.chunk.js",
+    "ProductCard.css": "/shop-cart_test/static/css/ProductCard.e4b7d6cb.chunk.css",
+    "ProductCard.js": "/shop-cart_test/static/js/ProductCard.bc1856e0.chunk.js",
+    "static/media/t_shirt_logo.png": "/shop-cart_test/static/media/t_shirt_logo.51f8a7e0867960053e88.png",
+    "static/media/cart_icon.png": "/shop-cart_test/static/media/cart_icon.4e8729b09a2c5a571f46.png",
+    "index.html": "/shop-cart_test/index.html",
+    "main.28f4189d.css.map": "/shop-cart_test/static/css/main.28f4189d.css.map",
+    "main.45223af1.js.map": "/shop-cart_test/static/js/main.45223af1.js.map",
+    "Cart.e31f721c.chunk.css.map": "/shop-cart_test/static/css/Cart.e31f721c.chunk.css.map",
+    "Cart.2492980b.chunk.js.map": "/shop-cart_test/static/js/Cart.2492980b.chunk.js.map",
+    "ProductCard.e4b7d6cb.chunk.css.map": "/shop-cart_test/static/css/ProductCard.e4b7d6cb.chunk.css.map",
+    "ProductCard.bc1856e0.chunk.js.map": "/shop-cart_test/static/js/ProductCard.bc1856e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28f4189d.css",
-    "static/js/main.c4224adb.js"
+    "static/js/main.45223af1.js"
   ]
 }
